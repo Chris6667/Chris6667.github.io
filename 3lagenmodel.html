@@ -8,14 +8,19 @@
   <body>
     
     <br>
-    <ul>
+    <ul id="ul1"> <!--hier begin ik een menu (ul staat voor unorderd list dat betekent zonder nummers)-->
       <li><a href="index.html">Home</a></li>
-      <li><a href="3lagenmodel.html">3lagenmodel</a></li>
-      <li><a href="toepassingenlaag.html">Toepassingenlaag</a></li>
-      <li><a href="logischelaag.html">Logischelaag</a></li>
-      <li><a href="fysiekelaag.html">Fysiekelaag</a></li>
-  
-    </ul>
+      <li class="dropdown"> <!--dit is de dropdown van het menu "3 lagen model"-->
+        <a href="javascript:void(0)" class="dropbtn">3 lagen model</a>
+        <div class="inhoud">
+              <a href="toepassingenlaag.html">toepassingenlaag</a>
+               <a href="Logischelaag.html">Logischelaag</a>
+               <a href="fysiekelaag.html">fysiekelaag</a>
+        </div>
+      </li>
+      <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+      <li><a href="cpu.html">Cpu</a></li>
+</ul>
     
     <img src="3lagenmodel.jpg" alt="3lagenmodel" width="300" height="400">
 
