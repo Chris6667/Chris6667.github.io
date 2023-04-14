@@ -52,12 +52,12 @@
     .inhoud {
       display: none;
       position: absolute;
-      background-color: #483D8B;
+      background-color: #c53199;
       min-width: 160px;
     }
     
     .inhoud a {
-      color: White;
+      color: rgb(0, 0, 0);
       padding: 10px 14px;
       display: block;
     }
