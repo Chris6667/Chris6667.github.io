@@ -43,8 +43,8 @@
   /*Dit is de opmaak van de titel "Wat houd informatica in?*/
   
     footer{
-      color: White;
-      background-color: #33cb33;
+      color: rgb(22, 14, 14);
+      background-color: #1ac31a;
       float: left;
       width: 100%;
       text-align: center; /*tekst begint vanuit het midden*/
